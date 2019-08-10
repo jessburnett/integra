@@ -1,0 +1,34 @@
+/*
+Though mixins may seem overkill for a basic demo it illustrates:
+1- code maintainability and scalability.
+2- my typical coding style for large, enterprise
+level applications such as yours.
+3- my level of sass skills
+*/
+
+/* variables for branding & topography */
+$primary-blue: #0b3c5d;
+$secondary-blue: #328cc1;
+$black: #1d2731;
+$gray: #c5c1c0;
+
+
+
+/* mixins */
+
+@mixin flex {
+  display: flex;
+}
+
+@mixin wrap {
+  flex-wrap: wrap;
+}
+
+.flex-container {
+  @include flex;
+  @include wrap;
+}
+
+body {
+  color: $black;
+}

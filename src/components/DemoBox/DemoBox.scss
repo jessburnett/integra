@@ -1,0 +1,13 @@
+@import '../../App.scss';
+
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: $black;
+  text-align: center;
+  flex-grow: 1;
+}
+
+label {
+  color: $primary-blue;
+}
