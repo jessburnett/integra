@@ -7,9 +7,7 @@ level applications such as yours.
 */
 
 /* variables for branding & topography */
-$primary-blue: #0b3c5d;
-$secondary-blue: #328cc1;
-$black: #1d2731;
+$blue: #0b3c5d;
 $gray: #c5c1c0;
 
 
@@ -30,5 +28,5 @@ $gray: #c5c1c0;
 }
 
 body {
-  color: $black;
+  color: $gray;
 }
